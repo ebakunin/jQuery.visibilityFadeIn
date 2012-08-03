@@ -9,18 +9,17 @@ A version of jQuery.fadeIn() that uses 'visibility' CSS styling. jQuery.visibili
 
 **Example**
 <pre>
-<html>
-
-<script type="text/javascript">
-<!--
+&lt;html&gt;
+&lt;script type="text/javascript"&gt;
+&lt;!--
 $(function() {
-  $('#foo').visibilityFadeIn(1000);
+    $('#foo').visibilityFadeIn(1000);
 });
-//-->
-</script>
+//--&gt;
+&lt;/script&gt;
 
-<h1 id="foo" style="visibility:hidden">Foo</h1>
-</html>
+&lt;h1 id="foo" style="visibility:hidden">Foo&lt;/h1&gt;
+&lt;/html&gt;
 </pre>
 
-The <h1> element will fade in over 1 second when the page loads. Since it's using "visibility" styling the spacing of the elements on the page will not change. This would not be true if $.fadeIn() was used instead. 
+The &lt;h1&gt; element will fade in over 1 second when the page loads. Since it's using "visibility" styling the spacing of the elements on the page will not change. This would not be true if $.fadeIn() was used instead. 
