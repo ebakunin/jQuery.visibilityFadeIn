@@ -1,8 +1,8 @@
 ﻿jQuery.visibilityFadeIn()
 =========================
 
-Copyright (c) 2012 by Eric Christenson (eric.j.christenson[at]gmail[dot]com)<br />
-Licensed under the GNU General Public License (http://www.gnu.org/licenses/gpl.html).
+Copyright (c) 2015 by Eric Christenson (eric.j.christenson[at]gmail[dot]com)<br />
+Licensed under the MIT Public License (http://opensource.org/licenses/MIT).
 
 A version of jQuery.fadeIn() that uses 'visibility' CSS styling. jQuery.visibilityFadeIn() is useful because jQuery.fadeIn() only uses "display" CSS properties, which differ from "visibility" CSS properties.
 
