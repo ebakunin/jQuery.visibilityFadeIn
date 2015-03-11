@@ -51,9 +51,11 @@
         <!--
         $(function () {
             $('button').click(function () {
-                var fadeSpeed = $(':text').val() || undefined;
+                var duration = $(':text').val() || 'slow';
 
-                $('#example').visibilityFadeIn(fadeSpeed);
+                $('#example').visibilityFadeIn(duration, function () {
+                    alert('finished!');
+                });
             });
         });
         //-->
