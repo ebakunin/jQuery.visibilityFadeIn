@@ -3,7 +3,7 @@
  * Note that the element must start with visibility: hidden
  *
  * @author   Eric Christenson
- * @date     February 22, 2015
+ * @date     March 11, 2015
  * @version  3.0
  * @license  MIT License (http://opensource.org/licenses/MIT)
  *
